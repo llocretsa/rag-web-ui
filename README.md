@@ -254,6 +254,11 @@ uvicorn app.main:app --reload
 
 ```bash
 cd frontend
+# Install npm
+sudo apt install npm  # Linux/macOS
+brew install nvm      # Mac OS
+source $(brew --prefix nvm)/nvm.sh
+
 pnpm install
 pnpm dev
 ```
